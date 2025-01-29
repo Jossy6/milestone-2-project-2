@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Page Clone</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="Newsweek.css" />
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Main Navigation -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="red-newsweek-logo.png"
+              height="30"
+              alt="Logo"
+              loading="lazy"
+            />
+          </a>
+
+          <!-- Navbar toggle for small screens -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Nation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lifestyle</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Opinion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ranking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Connect</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">More</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Buttons -->
+          <div class="d-flex">
+            <button class="btn custom-subscribe-btn">Subscribe for $1</button>
+            <button class="btn me-2 custom-login-btn">Log In</button>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+  </div>
+  
+
+
+    <div class="hero py-5">
+      <div class="container">
+        <div class="row">
+            <!-- Main Story -->
+            <main class="col-lg-9 mb-4 border-right border-grey">
+                <section class="container mb-5">
+                  <div class="row justify-content-between align-items-center">
+                      <h3 class="col-auto">Top Stories</h3>
+                      <div class="col-auto d-flex" style="gap: 20px">
+                              <a href="#" class="text-decoration-none" style="color:red; font-size: 16px">TRENDING //</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">DONALD TRUMP /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">JOE BIDEN /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">IMMIGRATION</a>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8 bg-image position-relative">
+                      <div class="text-overlay text-white position-absolute bottom-0 p-3">
+                        <h1>Inauguration Day 2025 LIVE: Donald and Melenia Trump Arrive at Church Service</h1>
+                        <p>By Dosunmu Josiah Olajuwon and Micheal Lively Jay | About 13 minutes ago | 18 min. read.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 pl- text-section pl-5">
+                      <p class="text-red">U.S</p>
+                      <h2><b>Joe Biden pardons Anthony Fauci</b></h2>
+                      <p class="text-red">U.S</p>
+                      <p>Joe Biden pardons Anthony Fauci</p>
+                      <p class="text-red">Politics</p>
+                      <p>Joe Biden pardons Anthony Fauci</p>
+                      <p class="text-red">Opinion</p>
+                      <p>Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                  </div>
+                </section>
+
+  <!-- Story1 -->
+                <section class="container mb-5 ">
+                  <div class="row gap-5">
+                    <div class="col-md-3 border-right border-grey sidestory-section-top pt-4 mr-5">
+                      <div class="card border-0">
+                          <img src="justin-blake.webp" class="card-img-top" alt="Story 3  ">
+                          <div class="card-body">
+                              <div class="mb-3">
+                                  <p class="m-0">Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that do not yet ...</p>
+                              </div>
+                          </div>
+                          <img src="trump.jpg" class="card-img-top" alt="Story 3">
+                          <div class="card-body">
+                              <div class="mb-3">
+                                  <p class="m-0">Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that do not yet ...</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-8 sidestory-section-top pt-3">
+                      <div class="row justify-content-between align-items-center">
+                         <h3 class="col-auto">Nation</h3>
+                         <div class="col-auto d-flex" style="gap: 20px">
+                              <a href="#" class="text-decoration-none" style="color:red; font-size: 16px">TRENDING //</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">Gop /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">Pardon</a>
+                          </div>
+                      </div>
+                      <div class="row pt-3">
+                        <div class="col-md-4 text-section">
+                          <h4><b>Joe Biden pardons Anthony Fauci</b></h4>
+                          <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design to fill empty spaces in a layout that do not yet ...</p>
+                        </div>
+                        <div class="col-md-8">
+                          <img src="justin-blake.webp" alt="Story 3" class="img-fluid">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4 mt-5">
+                          <div class="card border-0">
+                              <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                              <div class="card-body">
+                                <div class="mb-3">
+                                  <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mt-5">
+                          <div class="card border-0">
+                              <img src="trump.jpg" class="card-img-top" alt="Story 3">
+                              <div class="card-body">
+                                <div class="mb-3">
+                                  <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mt-5">
+                          <div class="card border-0">
+                              <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                              <div class="card-body">
+                                <div class="mb-3">
+                                  <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+<!-- Entertainment -->
+                <section class="container mb-5">
+                  <div class="row sidestory-section-top pt-4">
+                    <div class="row justify-content-between align-items-center">
+                      <h3 class="col-auto">Entertainment</h3>
+                      <div class="col-auto d-flex" style="gap: 20px">
+                              <a href="#" class="text-decoration-none" style="color:red; font-size: 16px">TRENDING //</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">MUSIC /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">REPUBLICANS /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">ROYAL FAMILY</a>
+                      </div>
+                  </div>
+                    <div class="col-md-5 bg-image position-relative">
+                      <div class="text-overlay text-white position-absolute bottom-0 p-3">
+                        <h4>Inauguration Day 2025 LIVE: Donald and Melenia Trump Arrive at Church Service</h4>
+                      </div>
+                    </div>
+                    <div class="col-md-7 row text-section pl-5">
+                      <div class="col-md-4 ">
+                        <div class="card border-0">
+                            <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card border-0">
+                            <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                            <div class="card-body">
+                              <div class="mb-3">
+                                <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 ">
+                        <div class="card border-0">
+                            <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                            <div class="card-body">
+                              <div class="mb-3">
+                                <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+
+                
+
+                <!-- Politics -->
+                <section class="container mb-5">
+                  <div class="row sidestory-section-top pt-4">
+                    <div class="row justify-content-between align-items-center">
+                      <h3 class="col-auto">Politics</h3>
+                      <div class="col-auto d-flex" style="gap: 20px">
+                              <a href="#" class="text-decoration-none" style="color:red; font-size: 16px">TRENDING //</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">DONALD TRUMP /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">JOE BIDEN /</a>
+                              <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">IMMIGRATION</a>
+                      </div>
+                  </div>
+                      <!-- First Column -->
+                      <div class="col-md-4 text-section">
+                          <h4><b>Joe Biden pardons Anthony Fauci</b></h4>
+                          <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design to fill empty spaces in a layout that do not yet ...</p>
+                      </div>
+              
+                      <!-- Second Column -->
+                      <div class="col-md-4">
+                          <img src="justin-blake.webp" alt="Story 3" class="img-fluid">
+                      </div>
+              
+                      <!-- Third Column -->
+                      <div class="col-md-4 text-section">
+                          <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design to fill empty spaces in a layout that do not yet ...</p>
+                          <br>
+                          <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design to fill empty spaces in a layout that do not yet ...</p>
+                      </div>
+                  </div>
+              </section>
+
+              <!-- money -->
+              <section class="container mb-5">
+                <div class="row sidestory-section-top pt-4">
+                  <div class="row justify-content-between align-items-center">
+                    <h3 class="col-auto">Money</h3>
+                    <div class="col-auto d-flex" style="gap: 20px">
+                            <a href="#" class="text-decoration-none" style="color:red; font-size: 16px">TRENDING //</a>
+                            <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">DONALD TRUMP /</a>
+                            <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">JOE BIDEN /</a>
+                            <a href="#" class="text-decoration-none" style="color: grey; font-size: 16px">IMMIGRATION</a>
+                    </div>
+                </div>
+                  <div class="col-md-5 bg-image position-relative">
+                    <div class="text-overlay text-white position-absolute bottom-0 p-3">
+                      <h4>Inauguration Day 2025 LIVE: Donald and Melenia Trump Arrive at Church Service</h4>
+                    </div>
+                  </div>
+                  <div class="col-md-7 row text-section pl-5">
+                    <div class="col-md-4 ">
+                      <div class="card border-0">
+                          <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                          <div class="card-body">
+                              <div class="mb-3">
+                                  <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card border-0">
+                          <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                          <div class="card-body">
+                            <div class="mb-3">
+                              <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                      <div class="card border-0">
+                          <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                          <div class="card-body">
+                            <div class="mb-3">
+                              <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+
+          <!-- Side Stories -->
+          <div class="col-lg-3 pl-4">
+              <h4>The Latest</h4>
+              <div class="card sidestory-section-bottom">
+                  <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                  <div class="card-body">
+                      <div class="mb-3">
+                          <p class="text-danger m-0">. 5 minutes ago</p>
+                          <h3 class="m-0">Joe Biden pardons Anthony Fauci</h3>
+                      </div>
+                      <div class="mb-3">
+                          <p class="text-danger m-0">. 5 minutes ago</p>
+                          <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                      </div>
+                      <div class="mb-3">
+                          <p class="text-danger m-0">. 8 minutes ago</p>
+                          <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                      </div>
+                      <div class="mb-3">
+                          <p class="text-danger m-0">. 14 minutes ago</p>
+                          <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="card sidestory-section-bottom pt-4">
+                <h4>Popular</h4>
+                <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <p class="text-danger m-0">News</p>
+                        <h3 class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</h3>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">U.S</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="card sidestory-section-bottom pt-4">
+                <h4>Popular</h4>
+                <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <p class="text-danger m-0">News</p>
+                        <h3 class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</h3>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">U.S</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="card sidestory-section-bottom pt-4">
+                <h4>Popular</h4>
+                <img src="justin-blake.webp" class="card-img-top" alt="Story 3">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <p class="text-danger m-0">News</p>
+                        <h3 class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</h3>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">U.S</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-danger m-0">Pets</p>
+                        <p class="m-0">Joe Biden pardons Anthony Fauci</p>
+                    </div>
+                </div>
+              </div>
+
+          </div>          
+      </div>
+    </div>
+
+
+  
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>About Newsweek</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p>&copy; 2025 Newsweek. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
