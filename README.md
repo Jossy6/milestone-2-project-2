@@ -35,5 +35,5 @@ Pull requests are welcome. Please ensure that your changes align with the projec
 This project is licensed under the MIT License.
 
 ## Contact
-For questions or feedback, reach out at [your-email@example.com].
+For questions or feedback, reach out at josiahdosunm03@gmail.com.
 
