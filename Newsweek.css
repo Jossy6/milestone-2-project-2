@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Times';
+  }
+  
+  
+  
+  /* Style for the "Log In" button */
+  .custom-login-btn {
+      color: #000000; /* Bootstrap primary color */
+      border-color: #f72210;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      padding: px;
+      white-space: nowrap;
+    }
+    
+    /* Style for the "Subscribe" button */
+    .custom-subscribe-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      white-space: nowrap; /* Prevent line breaks */
+      text-align: center; /* Center text inside */
+      display: inline-block; /* Ensure buttons remain inline */
+      border-radius: 5px; /* Optional for rounded corners */
+      line-height: 1; /* Keeps content vertically aligned */
+      background-color: #f72210;
+    }
+    
+  
+    
+    /* Optional: Add spacing between buttons for better look on smaller screens */
+    .d-flex button {
+      margin: 5px 10px;
+    }
+    
+    .bg-image {
+      background-image: url("trump.jpg"); /* Replace with your actual image path */
+      background-size: contain;
+      height: 400px; /* Adjust height as needed */
+  }
+  
+  .text-overlay {
+      position: absolute; /* Position it within the parent bg-image */
+      bottom: 10px; /* Adjust distance from the bottom */
+      left: 20px; /* Adjust horizontal alignment */
+      text-align: left; /* Align text to the left */
+  }
+  
+  .text-overlay h1 {
+      margin: 0;
+      font-size: 30px; /* Adjust font size as needed */
+      font-weight: bold;
+      color: #fff;
+  }
+  
+  .text-overlay p {
+      margin: 5px 0 0;
+      color: #fff;
+  }
+  
+  /* Add this to your CSS file */
+  .text-section p {
+    margin-bottom: 5px; /* Reduce the space between <p> elements */
+  }
+  
+  .text-section h2 {
+    margin-bottom: 8px; /* Reduce space below the <h2> */
+  }
+  
+  .text-red {
+    color: red; /* Set the color to red for selected paragraphs */
+  }
+  
+  
+  .sidestory-section-bottom {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #f92859;
+  }
+  
+  .sidestory-section-top {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 4px solid #f92859;
+  }
